@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>ClauseWise</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📄 ClauseWise</h1>
+
+    <input type="file" id="pdf">
+
+    <button onclick="uploadPDF()">
+        Upload PDF
+    </button>
+
+    <div id="chat">
+
+    </div>
+
+    <div class="bottom">
+
+        <input
+        id="question"
+        placeholder="Ask anything about your PDF">
+
+        <button onclick="askQuestion()">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
